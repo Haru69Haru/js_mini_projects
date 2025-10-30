@@ -1,0 +1,44 @@
+# ============================================
+# 🌐 General ignore rules for JavaScript projects
+# ============================================
+
+# 🧠 Node.js dependencies (if ever used)
+node_modules/
+
+# ⚙️ WebStorm / IntelliJ project settings
+.idea/
+
+# 🧮 Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 💾 System-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 🧰 Build outputs (optional — if you ever use build tools)
+dist/
+build/
+out/
+
+# 📦 Environment and config files (optional, if using APIs)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 🖼️ Cache / temp folders
+.cache/
+.vscode/
+coverage/
+temp/
+tmp/
+
+# ============================================
+# ✅ Add any custom ignore paths below
+# (for example, experimental folders)
+# ============================================
